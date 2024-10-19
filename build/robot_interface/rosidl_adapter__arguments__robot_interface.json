@@ -1,6 +1,0 @@
-{
-  "package_name": "robot_interface",
-  "non_idl_tuples": [
-    "/home/abhishek/llm_robot_control/src/robot_interface:srv/GetTransform.srv"
-  ]
-}

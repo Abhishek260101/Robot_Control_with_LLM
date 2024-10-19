@@ -1,4 +1,0 @@
-source;share/llama_bringup/local_setup.bash
-source;share/llama_bringup/local_setup.dsv
-source;share/llama_bringup/local_setup.sh
-source;share/llama_bringup/local_setup.zsh
