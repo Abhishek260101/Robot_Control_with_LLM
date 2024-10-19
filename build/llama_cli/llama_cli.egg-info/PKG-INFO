@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: llama_cli
+Version: 0.0.0
+Summary: Cli package for llama_ros
+Author: Miguel Ángel González Santamarta
+Author-email: mgons@unileon.es
+Maintainer: Miguel Ángel González Santamarta
+Maintainer-email: mgons@unileon.es
+License: MIT

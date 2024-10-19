@@ -1,0 +1,20 @@
+{
+  "package_name": "llama_msgs",
+  "non_idl_tuples": [
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/TokenProb.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/TokenProbArray.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/Response.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/PartialResponse.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/LogitBias.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/LogitBiasArray.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/SamplingConfig.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/Message.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:msg/LoRA.msg",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:action/GenerateResponse.action",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:srv/GenerateEmbeddings.srv",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:srv/Tokenize.srv",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:srv/FormatChatMessages.srv",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:srv/ListLoRAs.srv",
+    "/home/abhishek/llm_robot_control/src/llama_ros/llama_msgs:srv/UpdateLoRAs.srv"
+  ]
+}

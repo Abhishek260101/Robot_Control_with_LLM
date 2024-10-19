@@ -1,0 +1,6 @@
+[llama_cli.verb]
+launch = llama_cli.verb.launch:LaunchVerb
+prompt = llama_cli.verb.prompt:PromptVerb
+
+[ros2cli.command]
+llama = llama_cli.command.llama:LlamaCommand

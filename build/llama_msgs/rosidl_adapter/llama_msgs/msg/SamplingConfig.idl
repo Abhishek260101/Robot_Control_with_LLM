@@ -1,0 +1,139 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from llama_msgs/msg/SamplingConfig.msg
+// generated code does not contain a copyright notice
+
+#include "llama_msgs/msg/LogitBiasArray.idl"
+
+module llama_msgs {
+  module msg {
+    struct SamplingConfig {
+      @verbatim (language="comment", text=
+        "number of previous tokens to remember")
+      @default (value=64)
+      int32 n_prev;
+
+      @verbatim (language="comment", text=
+        "if greater than 0, output the probabilities of top n_probs tokens")
+      @default (value=1)
+      int32 n_probs;
+
+      @verbatim (language="comment", text=
+        "0 = disabled, otherwise samplers should return at least min_keep tokens")
+      @default (value=0)
+      int32 min_keep;
+
+      @verbatim (language="comment", text=
+        "ignore end of stream token and continue generating (implies --logit-bias 2-inf)")
+      @default (value=FALSE)
+      boolean ignore_eos;
+
+      @verbatim (language="comment", text=
+        "logit bias for specific tokens")
+      llama_msgs::msg::LogitBiasArray logit_bias;
+
+      @verbatim (language="comment", text=
+        "temperature")
+      @default (value=0.8)
+      float temp;
+
+      @verbatim (language="comment", text=
+        "0.0 = disabled")
+      @default (value=0.0)
+      float dynatemp_range;
+
+      @verbatim (language="comment", text=
+        "controls how entropy maps to temperature in dynamic temperature sampler")
+      @default (value=1.0)
+      float dynatemp_exponent;
+
+      @verbatim (language="comment", text=
+        "top-k sampling (0.0 = disabled)")
+      @default (value=40)
+      int32 top_k;
+
+      @verbatim (language="comment", text=
+        "top-p sampling (1.0 = disabled)")
+      @default (value=0.95)
+      float top_p;
+
+      @verbatim (language="comment", text=
+        "min-p sampling (0.0 = disabled)")
+      @default (value=0.05)
+      float min_p;
+
+      @verbatim (language="comment", text=
+        "tail free sampling, parameter z (1.0 = disabled)")
+      @default (value=1.0)
+      float tfs_z;
+
+      @verbatim (language="comment", text=
+        "locally typical sampling, parameter p (1.0 = disabled)")
+      @default (value=1.0)
+      float typical_p;
+
+      @verbatim (language="comment", text=
+        "last n tokens consider for penalize (0 = disable penalty, -1 = context size)")
+      @default (value=64)
+      int32 penalty_last_n;
+
+      @verbatim (language="comment", text=
+        "penalize repeat sequence of tokens (1.0 = disabled)")
+      @default (value=1.0)
+      float penalty_repeat;
+
+      @verbatim (language="comment", text=
+        "repeat alpha frequency penalty (0.0 = disable)")
+      @default (value=0.0)
+      float penalty_freq;
+
+      @verbatim (language="comment", text=
+        "repeat alpha presence penalty (0.0 = disabled)")
+      @default (value=0.0)
+      float penalty_present;
+
+      @verbatim (language="comment", text=
+        "Mirostart sampling (0 = disabled, 1 = mirostat, 2 = mirostat 2.0)")
+      @default (value=0)
+      int32 mirostat;
+
+      @verbatim (language="comment", text=
+        "Mirostat learning rate, parameter eta")
+      @default (value=0.1)
+      float mirostat_eta;
+
+      @verbatim (language="comment", text=
+        "Mirostat target entropy, parameter tau")
+      @default (value=5.0)
+      float mirostat_tau;
+
+      @verbatim (language="comment", text=
+        "consider newlines as a repeatable token")
+      @default (value=FALSE)
+      boolean penalize_nl;
+
+      @verbatim (language="comment", text=
+        "TOP_K, TFS_Z, TYPICAL_P, TOP_P, MIN_P, TEMP")
+      @default (value="kfypmt")
+      string samplers_sequence;
+
+      @verbatim (language="comment", text=
+        "optional BNF-like grammar to constrain sampling")
+      @default (value="")
+      string grammar;
+
+      @verbatim (language="comment", text=
+        "grammar schema that defines a JSON BNF grammar")
+      @default (value="")
+      string grammar_schema;
+
+      @verbatim (language="comment", text=
+        "list of tokens to penalize")
+      sequence<int32> penalty_prompt_tokens;
+
+      @verbatim (language="comment", text=
+        "whether to penalize tokens")
+      @default (value=FALSE)
+      boolean use_penalty_prompt_tokens;
+    };
+  };
+};

@@ -1,0 +1,653 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abhishek/llm_robot_control/build/llama_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_llama_msgs
+running egg_info
+creating llama_msgs.egg-info
+writing llama_msgs.egg-info/PKG-INFO
+writing dependency_links to llama_msgs.egg-info/dependency_links.txt
+writing top-level names to llama_msgs.egg-info/top_level.txt
+writing manifest file 'llama_msgs.egg-info/SOURCES.txt'
+reading manifest file 'llama_msgs.egg-info/SOURCES.txt'
+writing manifest file 'llama_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_llama_msgs_egg
+[  1%] Built target llama_msgs__cpp
+[  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  4%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/token_prob_array__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/response__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/sampling_config__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/logit_bias__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/lo_ra__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/partial_response__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/action/detail/generate_response__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/srv/detail/generate_embeddings__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/token_prob__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/message__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/srv/detail/format_chat_messages__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/msg/detail/logit_bias_array__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/srv/detail/tokenize__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/srv/detail/list_lo_r_as__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_c.dir/rosidl_generator_c/llama_msgs/srv/detail/update_lo_r_as__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libllama_msgs__rosidl_generator_c.so[0m
+[ 14%] Built target llama_msgs__rosidl_generator_c
+[ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/logit_bias_array__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/message__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/srv/generate_embeddings__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/response__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/token_prob_array__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/srv/tokenize__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/sampling_config__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/action/generate_response__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/logit_bias__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/srv/update_lo_r_as__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/token_prob__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/partial_response__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/srv/format_chat_messages__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/msg/lo_ra__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llama_msgs/srv/list_lo_r_as__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/token_prob_array__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/token_prob__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/response__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/partial_response__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/logit_bias_array__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/logit_bias__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/sampling_config__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/message__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/msg/lo_ra__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/srv/generate_embeddings__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/action/generate_response__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/srv/tokenize__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/srv/format_chat_messages__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/srv/list_lo_r_as__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/llama_msgs/srv/update_lo_r_as__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/token_prob__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/response__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/token_prob_array__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/logit_bias_array__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/logit_bias__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/message__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/sampling_config__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/partial_response__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/msg/detail/dds_fastrtps/lo_ra__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/action/detail/dds_fastrtps/generate_response__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/srv/detail/dds_fastrtps/generate_embeddings__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/srv/detail/dds_fastrtps/tokenize__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/srv/detail/dds_fastrtps/format_chat_messages__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/srv/detail/dds_fastrtps/list_lo_r_as__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llama_msgs/srv/detail/dds_fastrtps/update_lo_r_as__type_support.cpp.o[0m
+[ 49%] [32m[1mLinking CXX shared library libllama_msgs__rosidl_typesupport_c.so[0m
+[ 50%] [32m[1mLinking CXX shared library libllama_msgs__rosidl_typesupport_cpp.so[0m
+[ 50%] Built target llama_msgs__rosidl_typesupport_c
+[ 50%] Built target llama_msgs__rosidl_typesupport_cpp
+[ 51%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/token_prob__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/token_prob_array__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/response__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/token_prob__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/token_prob_array__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/response__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/partial_response__type_support_c.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/partial_response__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/logit_bias__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/logit_bias_array__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/logit_bias__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/sampling_config__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/logit_bias_array__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/sampling_config__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/message__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/message__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/msg/detail/lo_ra__type_support.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/token_prob__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/action/detail/generate_response__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/msg/detail/lo_ra__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/token_prob_array__type_support.c.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/action/detail/generate_response__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/response__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/partial_response__type_support.c.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/srv/detail/generate_embeddings__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/srv/detail/tokenize__type_support.cpp.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/logit_bias__type_support.c.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/srv/detail/generate_embeddings__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/logit_bias_array__type_support.c.o[0m
+[ 71%] [32m[1mLinking CXX shared library libllama_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/srv/detail/format_chat_messages__type_support.cpp.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/sampling_config__type_support.c.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/srv/detail/update_lo_r_as__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llama_msgs/srv/detail/list_lo_r_as__type_support.cpp.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/message__type_support.c.o[0m
+[ 75%] Built target llama_msgs__rosidl_typesupport_fastrtps_cpp
+[ 75%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/msg/detail/lo_ra__type_support.c.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/srv/detail/tokenize__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/srv/detail/format_chat_messages__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/srv/detail/list_lo_r_as__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/srv/detail/generate_embeddings__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/action/detail/generate_response__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/srv/detail/tokenize__type_support.c.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llama_msgs/srv/detail/update_lo_r_as__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/srv/detail/list_lo_r_as__type_support.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/srv/detail/format_chat_messages__type_support.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llama_msgs/srv/detail/update_lo_r_as__type_support.c.o[0m
+[ 82%] [32m[1mLinking C shared library libllama_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 82%] Built target llama_msgs__rosidl_typesupport_introspection_c
+[ 83%] [32m[1mLinking CXX shared library libllama_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 84%] [32m[1mLinking CXX shared library libllama_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target llama_msgs__rosidl_typesupport_introspection_cpp
+[ 84%] Built target llama_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target llama_msgs
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target llama_msgs__py
+[ 87%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_token_prob_array_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_logit_bias_array_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/action/_generate_response_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_lo_ra_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_message_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_logit_bias_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/srv/_generate_embeddings_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_token_prob_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/srv/_format_chat_messages_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_response_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_sampling_config_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/msg/_partial_response_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/srv/_tokenize_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/srv/_update_lo_r_as_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_generator_py.dir/rosidl_generator_py/llama_msgs/srv/_list_lo_r_as_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/llama_msgs/libllama_msgs__rosidl_generator_py.so[0m
+[ 96%] Built target llama_msgs__rosidl_generator_py
+[ 98%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/llama_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/llama_msgs/llama_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/llama_msgs/llama_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/llama_msgs/llama_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target llama_msgs__rosidl_typesupport_c__pyext
+[100%] Built target llama_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target llama_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/ament_index/resource_index/rosidl_interfaces/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/sampling_config.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/partial_response.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/logit_bias_array.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/token_prob_array.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/lo_ra.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/logit_bias.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/message.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/token_prob.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/response.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/update_lo_r_as.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/list_lo_r_as.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/format_chat_messages.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/tokenize.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/generate_embeddings.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__struct.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__functions.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__functions.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__type_support.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/generate_response.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/library_path.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/library_path.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__type_support.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__rosidl_typesupport_introspection_c.h
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/token_prob.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/token_prob_array.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/lo_ra.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/sampling_config.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/logit_bias.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/partial_response.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/response.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/logit_bias_array.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/message.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/generate_embeddings.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/list_lo_r_as.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/format_chat_messages.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/update_lo_r_as.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/tokenize.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__builder.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__traits.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__struct.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/generate_response.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/dds_fastrtps
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/dds_fastrtps
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/message__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/partial_response__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/token_prob_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/sampling_config__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/lo_ra__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias_array__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/logit_bias__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/msg/detail/response__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/tokenize__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/generate_embeddings__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/format_chat_messages__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/update_lo_r_as__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/srv/detail/list_lo_r_as__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action
+-- Up-to-date: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/include/llama_msgs/llama_msgs/action/detail/generate_response__type_support.cpp
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/pythonpath.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/pythonpath.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs-3.8.3-py3.10.egg-info
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs-3.8.3-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs-3.8.3-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs-3.8.3-py3.10.egg-info/PKG-INFO
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs-3.8.3-py3.10.egg-info/top_level.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_partial_response_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_sampling_config_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob_array.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_message.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_lo_ra_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_lo_ra.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob_array_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_message_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias_array.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias_array_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_sampling_config.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_partial_response.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_response_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_response.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/__init__.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/libllama_msgs__rosidl_generator_py.so
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_list_lo_r_as_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_list_lo_r_as.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_update_lo_r_as_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_format_chat_messages.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_tokenize.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_update_lo_r_as.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_generate_embeddings.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_tokenize_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_format_chat_messages_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_generate_embeddings_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/__init__.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action/_generate_response.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action/_generate_response_s.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action/__init__.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/_llama_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/__init__.py
+Listing '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/__init__.py'...
+Listing '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action/__init__.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/action/_generate_response.py'...
+Listing '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/__init__.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_lo_ra.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_logit_bias_array.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_message.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_partial_response.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_response.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_sampling_config.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/msg/_token_prob_array.py'...
+Listing '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/__init__.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_format_chat_messages.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_generate_embeddings.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_list_lo_r_as.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_tokenize.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/srv/_update_lo_r_as.py'...
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/local/lib/python3.10/dist-packages/llama_msgs/llama_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/abhishek/llm_robot_control/install/llama_msgs/lib/libllama_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/TokenProb.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/TokenProbArray.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/Response.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/PartialResponse.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LogitBias.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LogitBiasArray.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/SamplingConfig.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/Message.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LoRA.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/action/GenerateResponse.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/GenerateEmbeddings.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/Tokenize.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/FormatChatMessages.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/ListLoRAs.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/UpdateLoRAs.idl
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/TokenProb.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/TokenProbArray.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/PartialResponse.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LogitBias.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LogitBiasArray.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/SamplingConfig.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/Message.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/msg/LoRA.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/action/GenerateResponse.action
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/GenerateEmbeddings.srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/GenerateEmbeddings_Request.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/GenerateEmbeddings_Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/Tokenize.srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/Tokenize_Request.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/Tokenize_Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/FormatChatMessages.srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/FormatChatMessages_Request.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/FormatChatMessages_Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/ListLoRAs.srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/ListLoRAs_Request.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/ListLoRAs_Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/UpdateLoRAs.srv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/UpdateLoRAs_Request.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/srv/UpdateLoRAs_Response.msg
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/ament_index/resource_index/package_run_dependencies/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/ament_index/resource_index/parent_prefix_path/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/path.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/environment/path.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/local_setup.bash
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/local_setup.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/local_setup.zsh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/local_setup.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/package.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/ament_index/resource_index/packages/llama_msgs
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/export_llama_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgsConfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/cmake/llama_msgsConfig-version.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_msgs/share/llama_msgs/package.xml

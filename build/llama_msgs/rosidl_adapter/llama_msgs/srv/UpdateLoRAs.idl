@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from llama_msgs/srv/UpdateLoRAs.srv
+// generated code does not contain a copyright notice
+
+#include "llama_msgs/msg/LoRA.idl"
+
+module llama_msgs {
+  module srv {
+    struct UpdateLoRAs_Request {
+      @verbatim (language="comment", text=
+        "loaded LoRAS to update. A LoRA with scale 0.0 means deativating it.")
+      sequence<llama_msgs::msg::LoRA> loras;
+    };
+    struct UpdateLoRAs_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

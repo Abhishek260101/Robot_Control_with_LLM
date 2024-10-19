@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abhishek/llm_robot_control/build/llama_bringup
+Built target ament_cmake_python_copy_llama_bringup
+running egg_info
+creating llama_bringup.egg-info
+writing llama_bringup.egg-info/PKG-INFO
+writing dependency_links to llama_bringup.egg-info/dependency_links.txt
+writing top-level names to llama_bringup.egg-info/top_level.txt
+writing manifest file 'llama_bringup.egg-info/SOURCES.txt'
+reading manifest file 'llama_bringup.egg-info/SOURCES.txt'
+writing manifest file 'llama_bringup.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_llama_bringup_egg
+-- Install configuration: ""
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//launch
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//launch/spaetzle.launch.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//launch/minicpm-2.6.launch.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//launch/base.launch.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//launch/phi-3.launch.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/system-user-assistant-hashes.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Zephyr.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/ChatML.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Llama-3.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/user-assistant-hashes.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Mistral.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/StableLM-Zephyr.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Phi-3.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Alpaca.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/gorilla.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//prompts/Gemma-2.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/llava-mistral.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/llava-phi-3.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/OpenHermes.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Phi-3-adapters.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Llama-3.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/InternLM.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/MiniCPM-2.6.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/StableLM-Zephyr.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Phi-3.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/gorilla.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Marcoroni.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/MiniCPM-2.5.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Spaetzle.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Gemma-2.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/localmentor.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup//params/Qwen2.yaml
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/pythonpath.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/pythonpath.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup-3.8.3-py3.10.egg-info
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup-3.8.3-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup-3.8.3-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup-3.8.3-py3.10.egg-info/PKG-INFO
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup-3.8.3-py3.10.egg-info/top_level.txt
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup/utils.py
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup/__init__.py
+Listing '/home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup/__init__.py'...
+Compiling '/home/abhishek/llm_robot_control/install/llama_bringup/local/lib/python3.10/dist-packages/llama_bringup/utils.py'...
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/ament_index/resource_index/package_run_dependencies/llama_bringup
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/ament_index/resource_index/parent_prefix_path/llama_bringup
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/path.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/environment/path.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/local_setup.bash
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/local_setup.sh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/local_setup.zsh
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/local_setup.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/package.dsv
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/ament_index/resource_index/packages/llama_bringup
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/cmake/llama_bringupConfig.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/cmake/llama_bringupConfig-version.cmake
+-- Installing: /home/abhishek/llm_robot_control/install/llama_bringup/share/llama_bringup/package.xml

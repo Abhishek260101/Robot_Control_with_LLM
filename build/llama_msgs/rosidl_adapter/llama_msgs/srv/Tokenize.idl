@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from llama_msgs/srv/Tokenize.srv
+// generated code does not contain a copyright notice
+
+
+module llama_msgs {
+  module srv {
+    struct Tokenize_Request {
+      @verbatim (language="comment", text=
+        "promnpt")
+      string prompt;
+    };
+    struct Tokenize_Response {
+      @verbatim (language="comment", text=
+        "tokens")
+      sequence<int32> tokens;
+    };
+  };
+};

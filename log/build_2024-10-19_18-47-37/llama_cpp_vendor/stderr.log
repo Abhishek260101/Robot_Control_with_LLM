@@ -1,0 +1,31 @@
+[0mINSTALL TARGETS - target ggml has PUBLIC_HEADER files but no PUBLIC_HEADER DESTINATION.[0m
+[0mINSTALL TARGETS - target llama has PUBLIC_HEADER files but no PUBLIC_HEADER DESTINATION.[0m
+In file included from /home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-grammar.h:3,
+                 from /home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-sampling.h:5,
+                 from /home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-sampling.cpp:1:
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-impl.h:49:13: warning: ‘void replace_all(std::string&, const string&, const string&)’ defined but not used [-Wunused-function]
+   49 | static void replace_all(std::string & s, const std::string & search, const std::string & replace) {
+      |             ^~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-vocab.cpp:105:13: warning: ‘bool llama_is_unknown_token(const llama_vocab&, llama_token)’ defined but not used [-Wunused-function]
+  105 | static bool llama_is_unknown_token(const llama_vocab & vocab, llama_token id) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-grammar.cpp:201:13: warning: ‘void print_rule_binary(FILE*, const llama_grammar_rule&)’ defined but not used [-Wunused-function]
+  201 | static void print_rule_binary(FILE * file, const llama_grammar_rule & rule) {
+      |             ^~~~~~~~~~~~~~~~~
+In file included from /home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-grammar.h:3,
+                 from /home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-grammar.cpp:1:
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama-impl.h:49:13: warning: ‘void replace_all(std::string&, const string&, const string&)’ defined but not used [-Wunused-function]
+   49 | static void replace_all(std::string & s, const std::string & search, const std::string & replace) {
+      |             ^~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/examples/llava/clip.cpp:1580:13: warning: ‘void bilinear_resize(const clip_image_u8&, clip_image_u8&, int, int)’ defined but not used [-Wunused-function]
+ 1580 | static void bilinear_resize(const clip_image_u8& src, clip_image_u8& dst, int target_width, int target_height) {
+      |             ^~~~~~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/examples/llava/clip.cpp:271:13: warning: ‘void print_tensor_info(const ggml_tensor*, const char*)’ defined but not used [-Wunused-function]
+  271 | static void print_tensor_info(const ggml_tensor * tensor, const char * prefix = "") {
+      |             ^~~~~~~~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/unicode.cpp:28:20: warning: ‘std::string unicode_cpts_to_utf8(const std::vector<unsigned int>&)’ defined but not used [-Wunused-function]
+   28 | static std::string unicode_cpts_to_utf8(const std::vector<uint32_t> & cps) {
+      |                    ^~~~~~~~~~~~~~~~~~~~
+/home/abhishek/llm_robot_control/build/llama_cpp_vendor/_deps/llama-src/src/llama.cpp:15490:13: warning: ‘void llama_set_s_copy(llama_context&)’ defined but not used [-Wunused-function]
+15490 | static void llama_set_s_copy(llama_context & lctx) {
+      |             ^~~~~~~~~~~~~~~~

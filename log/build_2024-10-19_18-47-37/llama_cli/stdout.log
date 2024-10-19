@@ -1,0 +1,50 @@
+running egg_info
+creating ../../../build/llama_cli/llama_cli.egg-info
+writing ../../../build/llama_cli/llama_cli.egg-info/PKG-INFO
+writing dependency_links to ../../../build/llama_cli/llama_cli.egg-info/dependency_links.txt
+writing entry points to ../../../build/llama_cli/llama_cli.egg-info/entry_points.txt
+writing top-level names to ../../../build/llama_cli/llama_cli.egg-info/top_level.txt
+writing manifest file '../../../build/llama_cli/llama_cli.egg-info/SOURCES.txt'
+reading manifest file '../../../build/llama_cli/llama_cli.egg-info/SOURCES.txt'
+writing manifest file '../../../build/llama_cli/llama_cli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli
+copying llama_cli/__init__.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli
+creating /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/command
+copying llama_cli/command/llama.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/command
+copying llama_cli/command/__init__.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/command
+creating /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb
+copying llama_cli/verb/launch.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb
+copying llama_cli/verb/prompt.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb
+copying llama_cli/verb/__init__.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb
+creating /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/api
+copying llama_cli/api/__init__.py -> /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/api
+running install
+running install_lib
+creating /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli
+creating /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/command
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/command/llama.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/command
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/command/__init__.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/command
+creating /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb/launch.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb/prompt.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/verb/__init__.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb
+creating /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/api
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/api/__init__.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/api
+copying /home/abhishek/llm_robot_control/build/llama_cli/build/lib/llama_cli/__init__.py -> /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/command/llama.py to llama.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/command/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb/launch.py to launch.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb/prompt.py to prompt.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/verb/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/abhishek/llm_robot_control/install/llama_cli/share/llama_cli
+creating /home/abhishek/llm_robot_control/install/llama_cli/share/ament_index/resource_index/packages
+copying resource/llama_cli -> /home/abhishek/llm_robot_control/install/llama_cli/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/llama_cli/llama_cli.egg-info to /home/abhishek/llm_robot_control/install/llama_cli/lib/python3.10/site-packages/llama_cli-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/abhishek/llm_robot_control/build/llama_cli/install.log'
