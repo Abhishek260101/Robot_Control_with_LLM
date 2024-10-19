@@ -1,9 +1,0 @@
-setup.py
-llama_demos/__init__.py
-llama_demos/chatllama_demo_node.py
-llama_demos/llama_demo_node.py
-llama_demos/llava_demo_node.py
-llama_demos.egg-info/PKG-INFO
-llama_demos.egg-info/SOURCES.txt
-llama_demos.egg-info/dependency_links.txt
-llama_demos.egg-info/top_level.txt
